@@ -162,22 +162,24 @@ section {
     .sobre h2 {
         position: absolute;
         text-align: center;
-        padding-top: 35px;
+        padding-top: 100px;
         color: #f3d692;
         font-family: "Roboto",sans-serif;
         font-size: 28px;
         display: inline;
+        left: 300px;
     }
 
     .texto-esquerdo{
-        width: 300px;
-        height: 500px;
-        background-color: #fcdc917c;
+        width: 500px;
+        text-align: justify;
+        background-color: #fcdc91be;
         border-radius: 0 0 0 100px;
         margin: 0;
-        padding: 0;
+        padding: 40px 30px 80px;
         display: inline;
         position: absolute;
-        right: 150px;
-        box-sizing: content-box
+        right: 100px;
+        line-height: 1.5;
+        font-family: "Roboto",sans-serif;
     }
