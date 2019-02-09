@@ -54,6 +54,9 @@ body {
             color: white;
             
         }
+        .logo a:hover{
+            border: 0;
+        }
             a {
                 margin-left: 20px;
             }
@@ -241,7 +244,7 @@ section {
     display:block;
     width: 0px; 
     height: 0px; 
-    margin: 15px auto;
+    margin: 40px auto 30px;
     border-left: 35px solid transparent;
     border-right: 35px solid transparent;
     border-top: 35px solid #EB6C29;
@@ -292,6 +295,12 @@ section {
         left: 100px;
         width: 280px;
     }
+.masterizacao {
+    bottom: -60px;
+    right: 100px;
+    width: 280px;
+}
+
     .etapa_title {
         display: flex;
         flex-direction: row;
