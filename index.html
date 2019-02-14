@@ -25,7 +25,7 @@
                                 <a href="#quem_somos">QUEM SOMOS</a>
                                 <a href="#servicos">SERVIÇOS</a>
                                 <a href="#portfolio">PORTFÓLIO</a>
-                                <a href="">CONTATO</a>
+                                <a href="#contato">CONTATO</a>
                             </li>
                         </ul>
                     </nav>
@@ -147,6 +147,23 @@
                         <div class="card">item-7</div>
                     </div>
                 </article>
+                <article class="contato" id="contato">
+                    
+                    <form action="contato.php" method="POST">
+                            
+                        <div class="inputs">
+                        <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                        <input type="text" name="endereco" id="endereco" placeholder="Endereço" required>
+                        <input type="tel" name="telefone" id="telefone" placeholder="Telefone" required>
+                        </div>
+                        <div class="texto_submit">
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="4" placeholder="Mensagem" required></textarea><br>
+                        <input type="submit" value="Enviar">
+                        </div>
+                    </form>
+                </article>
+
              
             </section>
         </main>
