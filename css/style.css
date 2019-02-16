@@ -508,11 +508,15 @@ footer {
         .inf-contatos a {
             margin: 0;
         }
-        
+        .inf-contatos a:hover {
+            font-size: 18px;
+            color: rgb(230, 218, 90)
+
+        }
      
     .whats {
         text-align: center;
-        
+                
     }
 
     
