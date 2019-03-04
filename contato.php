@@ -16,7 +16,7 @@
 
         $from = new SendGrid\Email(null, "bcstudioeproducoes@gmail.com");
         $subject = "Mensagem de contato";
-        $to = new SendGrid\Email(null, "bcstudioeproducoes@gmail.com");
+        $to = new SendGrid\Email(null, "pissulin.ads@gmail.com");
         $content = new SendGrid\Content("text/html", "Olá BC-Studio, <br><br>Nova mensagem de contato<br><br>Nome: $nome<br>Email: $email<br>Endereço: $endereco <br> Telefone: $telefone<br>Mensagem: $mensagem");
         $mail = new SendGrid\Mail($from, $subject, $to, $content);
         
