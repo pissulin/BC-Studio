@@ -34,8 +34,29 @@ body {
         margin: 40px 0 0 0;
         padding: 0;
         border: 0;
-        
     }
+    .logo > a img {
+        width: 400px;
+    }
+        @media screen and (max-width:640px)
+        {
+            .logo {float: none; margin:0 ;text-align: center}
+            .logo > a img {width: 300px; margin: 0 0 20px; padding: 0; }
+            .menu {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-content: center;
+                justify-items: center;
+                align-items: center;
+                
+            }
+            .menu li a {margin: 0 2px }
+            .menu li {
+                margin: auto
+            }
+
+        }
 
     .menu {
         padding: 0 10 ;
