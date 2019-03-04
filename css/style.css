@@ -200,8 +200,8 @@ section {
     }
     @media screen and (max-width:640px){
         .sobre h2 {
-            margin: 10px auto;
-            padding: 20px 0; 
+            margin: auto;
+            padding: 50px 0; 
             float:none;
             display: block;
         }
@@ -221,14 +221,7 @@ section {
         font-family: "Roboto",sans-serif;
         font-weight: 400;
     }   
-    @media screen and (max-width:640px){
-        .texto-esquerdo {
-            float: none;
-            margin: auto;
-            padding: auto;
-            width: 100%;
-        }
-    }
+    
         .texto-esquerdo p {
             font-size: 15px;
             font-family: "Roboto",sans-serif;
@@ -242,7 +235,15 @@ section {
             font-weight: bolder;
             font-size: 30px;
         }
+        @media screen and (max-width:640px){
+            .texto-esquerdo {
+                float: none;
+                margin: auto;
+                padding: auto;
+                width: 85.5%;
+            }
 
+        }
 .servicos {
     
     width: 100%;
