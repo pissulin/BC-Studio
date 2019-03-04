@@ -185,6 +185,7 @@ section {
     background-position: center;
 }
 
+
     .sobre h2 {
         margin-left: 250px;
         text-align: center;
@@ -196,8 +197,14 @@ section {
         float: left;
         text-shadow: 0px 0px 20px black;
         font-weight: bold;
-      
-
+    }
+    @media screen and (max-width:640px){
+        .sobre h2 {
+            margin: 10px auto;
+            padding: 20px 0; 
+            float:none;
+            display: block;
+        }
     }
 
     .texto-esquerdo{
@@ -214,6 +221,14 @@ section {
         font-family: "Roboto",sans-serif;
         font-weight: 400;
     }   
+    @media screen and (max-width:640px){
+        .texto-esquerdo {
+            float: none;
+            margin: auto;
+            padding: auto;
+            width: 100%;
+        }
+    }
         .texto-esquerdo p {
             font-size: 15px;
             font-family: "Roboto",sans-serif;
