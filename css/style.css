@@ -320,7 +320,6 @@ section {
 
     .etapa {
         position: absolute;
-        
         width: 300px;
         display: flex;
         flex-direction: column;
@@ -363,6 +362,24 @@ section {
         font-family: "Roboto", sans-serif;
         font-size: 14px;
         text-align: justify;
+    }
+    @media screen and (max-width:640px){
+        .etapas {
+            min-width: 100vw;
+            min-height: 900px;
+        }
+
+        .etapas img {
+            display: none;
+       }
+       .etapa {
+           position: relative;
+           
+       }
+       .pre,.gravacao, .mixagem, .masterizacao {
+           margin:auto;
+           
+      }
     }
 
     /*POrtFólio*/
