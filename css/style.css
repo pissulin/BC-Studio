@@ -380,27 +380,27 @@ section {
        }
        .pre{
         text-align: center;
-        left: 190px;
+        left: 85px;
         width: 250px;
         position: relative
      }
 
     .gravacao {
         top: -20px;
-        left: 190px;
+        left: 85px;
         width: 250px;
         position: relative
     }
 
     .mixagem {
         top: 15px;
-        left: 190px;
+        left: 85px;
         width: 250px;
         position: relative
     }
     .masterizacao {
         top: 50px;
-        left: 190px;
+        left: 85px;
         width: 250px;
         position: relative;
         margin-bottom: 50px;
