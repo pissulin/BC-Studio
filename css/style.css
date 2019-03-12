@@ -366,20 +366,46 @@ section {
     @media screen and (max-width:640px){
         .etapas {
             min-width: 100vw;
-            min-height: 900px;
+            position: relative;
+            
         }
 
         .etapas img {
             display: none;
        }
        .etapa {
-           position: relative;
+           
+           text-align: center
            
        }
-       .pre,.gravacao, .mixagem, .masterizacao {
-           margin:auto;
-           
-      }
+       .pre{
+        text-align: center;
+        left: 190px;
+        width: 250px;
+        position: relative
+     }
+
+    .gravacao {
+        top: -20px;
+        left: 190px;
+        width: 250px;
+        position: relative
+    }
+
+    .mixagem {
+        top: 15px;
+        left: 190px;
+        width: 250px;
+        position: relative
+    }
+    .masterizacao {
+        top: 50px;
+        left: 190px;
+        width: 250px;
+        position: relative;
+        margin-bottom: 50px;
+        
+    
     }
 
     /*POrtFólio*/
