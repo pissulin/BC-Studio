@@ -320,6 +320,7 @@ section {
 
     .etapa {
         position: absolute;
+        
         width: 300px;
         display: flex;
         flex-direction: column;
@@ -362,50 +363,6 @@ section {
         font-family: "Roboto", sans-serif;
         font-size: 14px;
         text-align: justify;
-    }
-    @media screen and (max-width:640px){
-        .etapas {
-            min-width: 100vw;
-            position: relative;
-            
-        }
-
-        .etapas img {
-            display: none;
-       }
-       .etapa {
-           
-           text-align: center
-           
-       }
-       .pre{
-        text-align: center;
-        left: 85px;
-        width: 250px;
-        position: relative
-     }
-
-    .gravacao {
-        top: -20px;
-        left: 85px;
-        width: 250px;
-        position: relative
-    }
-
-    .mixagem {
-        top: 15px;
-        left: 85px;
-        width: 250px;
-        position: relative
-    }
-    .masterizacao {
-        top: 50px;
-        left: 85px;
-        width: 250px;
-        position: relative;
-        margin-bottom: 50px;
-        
-    
     }
 
     /*POrtFólio*/
