@@ -365,6 +365,26 @@ section {
         text-align: justify;
     }
 
+    @media screen and (max-width: 640px){
+        .etapas{
+            float: left;
+            min-height: 400px;
+        }
+        .etapas img {
+            display: none;
+        }
+        .etapa{
+            position: relative;
+           margin: auto;
+        }
+        .pre , .gravacao, .mixagem, .masterizacao {
+            top: auto;
+            left: auto;
+            right: auto;
+            bottom:auto;
+        }
+    }
+
     /*POrtFólio*/
     .portfolio {
         min-height: 100vh;
