@@ -460,7 +460,7 @@ section {
             margin: auto;           
             border: #EB6C29 solid 3px;
             border-radius: 50px 0 50px 0;
-            height: 220px;
+            min-height: 220px;
             padding:25px;
             display: flex;
             justify-content: space-around;
@@ -517,6 +517,30 @@ section {
                         background-color: rgb(59, 58, 58);
                         color: white;
                     }
+
+                    @media screen and (max-width:640px){
+                        form{
+                            flex-direction: column;
+                            padding: 10px 0;
+                            box-sizing: border-box;
+                            margin: 0 auto;
+                            width: 90%; 
+                        }
+                        .inputs {
+                            width: 80%;
+                            margin: 20px 20px 0 0;
+                        }
+                        .texto_submit{
+                            width: 83%;
+                            margin: 10px  10px 0 0;
+                            box-sizing: border-box;
+                        }
+                        input[type=submit]{
+                            
+                            margin: 0 auto 20px;
+                            width: 102.5%;
+                        }
+                    }         
     /*fim contato */
 
 /*social*/
