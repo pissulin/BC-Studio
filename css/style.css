@@ -434,8 +434,12 @@ section {
             margin: 0 10px 10px 0 ;
             padding: 0;
             color: white;
-           
-            
+               
+        }
+        @media screen and (max-width:640px){
+            .cards .card {
+                margin: 10px 0;
+            }
         }
 
 
@@ -540,6 +544,7 @@ section {
                             margin: 0 auto 20px;
                             width: 102.5%;
                         }
+                        
                     }         
     /*fim contato */
 
